@@ -51,12 +51,30 @@ function HubspotForm() {
   const slot = useRef<HTMLDivElement>(null)
   const [enviado, setEnviado] = useState(false)
 
-  // O wa.me responde com X-Frame-Options: DENY, então um redirect do HubSpot
-  // para o WhatsApp quebra quando a LP está dentro do iframe do WordPress.
-  // Em vez disso, o formulário exibe a mensagem de obrigado e nós oferecemos
-  // o WhatsApp num link que abre fora do frame.
+  // Enviado o formulário, mandamos a pessoa direto para o WhatsApp.
+  // O wa.me responde com X-Frame-Options: DENY, então não adianta navegar a
+  // própria LP quando ela roda dentro do iframe do WordPress: é preciso sair
+  // do frame. O clique no botão do HubSpot dá ativação também a esta janela,
+  // o que permite navegar a janela de cima. O botão visível fica como reserva
+  // caso o navegador bloqueie.
   useEffect(() => {
-    const onSuccess = () => setEnviado(true)
+    const onSuccess = () => {
+      setEnviado(true)
+
+      const dentroDeIframe = window.top !== window.self
+      if (!dentroDeIframe) {
+        window.location.href = WHATSAPP_URL
+        return
+      }
+
+      try {
+        window.top!.location.href = WHATSAPP_URL
+      } catch {
+        // navegação da janela de cima barrada: tenta uma aba nova
+        window.open(WHATSAPP_URL, '_blank', 'noopener')
+      }
+    }
+
     document.addEventListener('hs-form-event:on-submission:success', onSuccess)
     return () => document.removeEventListener('hs-form-event:on-submission:success', onSuccess)
   }, [])
