@@ -29,3 +29,5 @@ instagram-organico	003d8559-caf0-43d4-93c9-988724c3d75b	https://mig-lp-instagram
 instagram-transicao	5f86118a-a4be-4c9c-8d4b-be9a9d0ef411	https://mig-lp-instagram-transicao.vercel.app	https://mig-lp-instagram-transicao.vercel.app
 instagram-educacao	2084a48a-4ead-4c4a-bb89-467f2324b46d	https://mig-lp-instagram-educacao.vercel.app	https://mig-lp-instagram-educacao.vercel.app
 linkedin	8cf4fec1-4e27-47b9-a42c-05f7e2869ce6	https://mig-lp-linkedin.vercel.app	https://mig-lp-linkedin.vercel.app
+credit-journey	192e2399-e51d-41c9-ae57-d3eb7cb02c23	https://mig-lp-credit-journey.vercel.app	https://mig-lp-credit-journey.vercel.app
+speak-english	8cb06973-2eb9-454e-82ed-d87f8d95024d	https://mig-lp-speak-english.vercel.app	https://mig-lp-speak-english.vercel.app
