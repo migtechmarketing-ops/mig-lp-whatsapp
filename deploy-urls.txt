@@ -34,4 +34,3 @@ speak-english	8cb06973-2eb9-454e-82ed-d87f8d95024d	https://mig-lp-speak-english.
 credit-journey	192e2399-e51d-41c9-ae57-d3eb7cb02c23	https://mig-lp-credit-journey.vercel.app	https://mig-lp-credit-journey.vercel.app
 speak-english	8cb06973-2eb9-454e-82ed-d87f8d95024d	https://mig-lp-speak-english.vercel.app	https://mig-lp-speak-english.vercel.app
 contabilidade	349654e2-dd4c-474f-b684-18fe02b2848a	https://mig-lp-contabilidade.vercel.app	https://mig-lp-contabilidade.vercel.app
-planejamento-financeiro	026f6152-5323-4b7c-825c-14c086277244	https://mig-lp-planejamento-financeiro.vercel.app	https://mig-lp-planejamento-financeiro.vercel.app
