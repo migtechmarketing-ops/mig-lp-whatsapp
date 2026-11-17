@@ -39,3 +39,8 @@ odontologia	51b94afa-d774-48bd-9e32-0a7b045f5107	https://mig-lp-odontologia.verc
 engenharia	026f6152-5323-4b7c-825c-14c086277244	https://mig-lp-engenharia.vercel.app	https://mig-lp-engenharia.vercel.app
 ana-claudia	fa65d1da-f714-4d8c-8f1f-3a77e6220571	https://mig-lp-ana-claudia.vercel.app	https://mig-lp-ana-claudia.vercel.app
 eduardo-miranda	c8e1f813-30d6-44af-8534-bee982f392ad	https://mig-lp-eduardo-miranda.vercel.app	https://mig-lp-eduardo-miranda.vercel.app
+contabilidade	349654e2-dd4c-474f-b684-18fe02b2848a	https://mig-lp-contabilidade.vercel.app	https://mig-lp-contabilidade.vercel.app
+engenharia	026f6152-5323-4b7c-825c-14c086277244	https://mig-lp-engenharia.vercel.app	https://mig-lp-engenharia.vercel.app
+odontologia	51b94afa-d774-48bd-9e32-0a7b045f5107	https://mig-lp-odontologia.vercel.app	https://mig-lp-odontologia.vercel.app
+ana-claudia	fa65d1da-f714-4d8c-8f1f-3a77e6220571	https://mig-lp-ana-claudia.vercel.app	https://mig-lp-ana-claudia.vercel.app
+eduardo-miranda	c8e1f813-30d6-44af-8534-bee982f392ad	https://mig-lp-eduardo-miranda.vercel.app	https://mig-lp-eduardo-miranda.vercel.app

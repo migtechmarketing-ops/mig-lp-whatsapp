@@ -32,6 +32,14 @@ for (const { slug, form, wa } of list) {
   } catch (e) {
     out = `${e.stdout || ''}${e.stderr || ''}`
   }
+  // A Vercel CLI liga o projeto ao repo do GitHub quando cria o projeto daqui de dentro.
+  // Com o vínculo, todo push no main republica o modelo base (Odonto USA Academy) por cima
+  // desta LP. Desliga sempre; se já estiver desligado, não faz nada.
+  try {
+    execFileSync('npx', ['vercel', 'git', 'disconnect', '--yes', '--scope', 'mig-tech'], {
+      cwd: dir, stdio: 'ignore', shell: true,
+    })
+  } catch {}
   const url = (out.match(/https:\/\/[a-z0-9-]+\.vercel\.app/g) || []).pop() || 'FALHOU'
   const line = `${slug}\t${form}\thttps://${project}.vercel.app\t${url}`
   console.log(line)
