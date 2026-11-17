@@ -36,3 +36,4 @@ speak-english	8cb06973-2eb9-454e-82ed-d87f8d95024d	https://mig-lp-speak-english.
 contabilidade	349654e2-dd4c-474f-b684-18fe02b2848a	https://mig-lp-contabilidade.vercel.app	https://mig-lp-contabilidade.vercel.app
 engenharia	026f6152-5323-4b7c-825c-14c086277244	https://mig-lp-engenharia.vercel.app	https://mig-lp-engenharia.vercel.app
 odontologia	51b94afa-d774-48bd-9e32-0a7b045f5107	https://mig-lp-odontologia.vercel.app	https://mig-lp-odontologia.vercel.app
+engenharia	026f6152-5323-4b7c-825c-14c086277244	https://mig-lp-engenharia.vercel.app	https://mig-lp-engenharia.vercel.app
